@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-glue`](https://www.npmjs.com/package/@aws-sdk/client-glue/v/3.954.0).
+[`@aws-sdk/client-glue`](https://www.npmjs.com/package/@aws-sdk/client-glue/v/3.955.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-glue@3.954.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-glue@3.955.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-iX5mvQIq73ZbRj970+ZhHjZpUPT1R3p530Ty5MGp/p6NxJilhUOM0GGpouBddyCc
+sha384-GFJF/midUqo1Kin40KMv1s6Znq0mOcHB0iXSSI68RFYS2r3lR2ABc/ldZo/3/BC4
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-glue": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-glue@3.954.0/index.min.mjs"
+            "@aws-sdk/client-glue": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-glue@3.955.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-glue@3.954.0/index.min.mjs": "sha384-iX5mvQIq73ZbRj970+ZhHjZpUPT1R3p530Ty5MGp/p6NxJilhUOM0GGpouBddyCc"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-glue@3.955.0/index.min.mjs": "sha384-GFJF/midUqo1Kin40KMv1s6Znq0mOcHB0iXSSI68RFYS2r3lR2ABc/ldZo/3/BC4"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-glue": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-glue@3.954.0/index.min.mjs"
+                        "@aws-sdk/client-glue": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-glue@3.955.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-glue@3.954.0/index.min.mjs": "sha384-iX5mvQIq73ZbRj970+ZhHjZpUPT1R3p530Ty5MGp/p6NxJilhUOM0GGpouBddyCc"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-glue@3.955.0/index.min.mjs": "sha384-GFJF/midUqo1Kin40KMv1s6Znq0mOcHB0iXSSI68RFYS2r3lR2ABc/ldZo/3/BC4"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.954.0`)
+* Always pin to a specific version (`@3.955.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-glue/blob/refs/tags/3.954.0/LICENSE
+https://github.com/cloud-sdk-builds/client-glue/blob/refs/tags/3.955.0/LICENSE
 ```
 
 ---
